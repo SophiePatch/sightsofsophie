@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Sights of Sophie – a study abroad travel guide based in London, sharing weekend adventures and favorite places across Europe."
+    />
+    <meta name="author" content="Sophie Patch" />
+    <title>Sights of Sophie | Study Abroad Travel Guide</title>
+    <link rel="icon" type="image/x-icon" href="assets/sightsofsophie.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <link href="custom.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container px-4">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="assets/sightsofsophie.png"
+            alt="Sights of Sophie logo"
+            class="brand-logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+
+            <!-- Dropdown Menu for Destinations -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="destinations.html"
+                id="destinationsDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Destinations
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="destinationsDropdown">
+                <li><a class="dropdown-item" href="destinations.html">Overview</a></li>
+                <li><a class="dropdown-item" href="london.html">London, England</a></li>
+                <li><a class="dropdown-item" href="paris.html">Paris, France</a></li>
+                <li><a class="dropdown-item" href="palma.html">Palma de Mallorca, Spain</a></li>
+                <li><a class="dropdown-item" href="plymouth.html">Plymouth, England</a></li>
+                <li><a class="dropdown-item" href="edinburgh.html">Edinburgh, Scotland</a></li>
+                <li><a class="dropdown-item" href="wales.html">Wales, UK</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item"><a class="nav-link" href="tips.html">Travel Tips</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header style="background: url('assets/images/plane.jpg') center 22%/cover;">
+      <div class="container text-center text-white py-5">
+        <h1 class="display-5 fw-semibold">Study Abroad, See the World</h1>
+        <p class="lead mb-3">
+          Exploring Europe from my home base in London — one weekend at a time.
+        </p>
+        <a href="destinations.html" class="btn btn-primary mt-2">Start Exploring</a>
+      </div>
+    </header>
+
+    <!-- Welcome Section -->
+    <section id="welcome" class="py-5">
+      <div class="container px-4 text-center">
+        <h2 class="fw-bold mb-3">Welcome to <em>Sights of Sophie</em></h2>
+        <p class="lead mx-auto" style="max-width: 720px;">
+          During my semester abroad in London, every free weekend became a new
+          adventure — from quiet coastal towns to bustling city streets. This
+          guide captures the destinations, stories, and cultural moments that
+          turned my semester into something unforgettable.
+        </p>
+      </div>
+    </section>
+
+    <!-- Featured Destinations -->
+    <section id="featured" class="bg-light py-5">
+      <div class="container px-4">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Weekend Highlights</h2>
+          <p class="lead">
+            Favorite destinations I explored while studying in London.
+          </p>
+        </div>
+
+        <div class="row gx-5 gy-4">
+          <!-- London -->
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img src="assets/images/london1.jpg" class="card-img-top" alt="Big Ben in London">
+              <div class="card-body">
+                <h5 class="card-title">London, England</h5>
+                <p class="card-text">
+                  My home base and favorite city — a mix of royal landmarks, cozy cafés, and creative energy.
+                </p>
+                <a href="destinations.html#london" class="btn btn-outline-primary">Explore London</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Paris -->
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img src="assets/images/paris1.jpg" class="card-img-top" alt="Eiffel Tower in Paris">
+              <div class="card-body">
+                <h5 class="card-title">Paris, France</h5>
+                <p class="card-text">A weekend of art, pastries, and golden-hour walks along the Seine.</p>
+                <a href="destinations.html#paris" class="btn btn-outline-primary">See Paris</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Palma -->
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img src="assets/images/palma1.jpg" class="card-img-top" alt="Palma coastline">
+              <div class="card-body">
+                <h5 class="card-title">Palma de Mallorca, Spain</h5>
+                <p class="card-text">
+                  Sunshine, beaches, and sea breezes — the perfect island escape.
+                </p>
+                <a href="destinations.html#palma" class="btn btn-outline-primary">Discover Palma</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Plymouth -->
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img src="assets/images/plymouth1.jpg" class="card-img-top" alt="Plymouth Hoe">
+              <div class="card-body">
+                <h5 class="card-title">Plymouth, England</h5>
+                <p class="card-text">
+                  Family roots and coastal calm — from the Hoe to harbor ferries.
+                </p>
+                <a href="destinations.html#plymouth" class="btn btn-outline-primary">Discover Plymouth</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Edinburgh -->
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img src="assets/images/scotland2.jpg" class="card-img-top" alt="Edinburgh Castle">
+              <div class="card-body">
+                <h5 class="card-title">Edinburgh, Scotland</h5>
+                <p class="card-text">
+                  Castle views, cobblestones, and ghost tours in a storybook city.
+                </p>
+                <a href="destinations.html#edinburgh" class="btn btn-outline-primary">Explore Edinburgh</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Wales -->
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img src="assets/images/wales4.jpg" class="card-img-top" alt="Conwy Castle">
+              <div class="card-body">
+                <h5 class="card-title">Wales, UK</h5>
+                <p class="card-text">
+                  Castles, coastlines, and the charm of North Wales’ tiny towns.
+                </p>
+                <a href="destinations.html#wales" class="btn btn-outline-primary">See Wales</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery CTA -->
+    <section id="cta" class="text-center py-5">
+      <div class="container">
+        <h2 class="fw-bold mb-3">See My Photo Journal</h2>
+        <p class="lead mb-4">
+          From city lights to seaside cliffs — snapshots from every corner of Europe.
+        </p>
+        <a href="gallery.html" class="btn btn-primary btn-lg">View Gallery</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white text-center">
+      <div class="container px-4">
+        <p class="m-0">
+          © 2025 Sights of Sophie — A Study Abroad Travel Guide by Sophie Patch
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Sights of Sophie – Highlights and memories from my trip to Palma de Mallorca, Spain." />
+    <title>Sights of Sophie | Palma de Mallorca</title>
+    <link rel="icon" type="image/x-icon" href="assets/sightsofsophie.png" />
+   
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
+    <link href="styles.css" rel="stylesheet" />
+    <link href="custom.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container px-4">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/sightsofsophie.png" alt="Sights of Sophie logo" class="brand-logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <!-- Dropdown Menu for Destinations -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="destinations.html"
+                id="destinationsDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Destinations
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="destinationsDropdown">
+                <li><a class="dropdown-item" href="destinations.html">Overview</a></li>
+                <li><a class="dropdown-item" href="london.html">London, England</a></li>
+                <li><a class="dropdown-item" href="paris.html">Paris, France</a></li>
+                <li><a class="dropdown-item active" href="palma.html">Palma de Mallorca, Spain</a></li>
+                <li><a class="dropdown-item" href="plymouth.html">Plymouth, England</a></li>
+                <li><a class="dropdown-item" href="edinburgh.html">Edinburgh, Scotland</a></li>
+                <li><a class="dropdown-item" href="wales.html">Wales, UK</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item"><a class="nav-link" href="tips.html">Travel Tips</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="hero" style="background-image: url('assets/images/palma2.jpg');">
+  <div class="hero-content container">
+    <h1 class="display-5 fw-bold">Palma de Mallorca, Spain</h1>
+    <p class="lead">Sunshine, sea breezes, and late-night laughter — my Mediterranean escape.</p>
+  </div>
+</header>
+
+
+    <!-- Content -->
+    <section class="py-5">
+      <div class="container px-4">
+        <h2 class="fw-bold mb-4">Weekend on the Island</h2>
+        <p class="lead">
+          After months in London’s hustle, Palma was a breath of sea air. The island was bright and laid-back — where time slowed and every day felt like golden hour.
+        </p>
+        <p>
+          My friends and I wandered cobblestone streets lined with palm trees, stopped for tapas near the marina, and spent entire afternoons sitting by the water. Palma reminded me how important it is to pause — to let stillness be part of the adventure.
+        </p>
+
+        <!-- Palma Carousel -->
+        <section id="palma-carousel" class="my-5">
+          <div class="container px-4">
+            <h2 class="fw-bold mb-4 text-center">Palma Highlights</h2>
+
+            <div id="palmaPhotoCarousel" class="carousel slide shadow-sm rounded" data-bs-ride="carousel" data-bs-interval="4000">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#palmaPhotoCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#palmaPhotoCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#palmaPhotoCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+
+              <div class="carousel-inner rounded">
+                <div class="carousel-item active">
+                  <img src="assets/images/palma1.jpg" class="d-block w-100 rounded" alt="Palma Cathedral">
+                </div>
+
+                <div class="carousel-item">
+                  <img src="assets/images/palma12.jpg" class="d-block w-100 rounded" alt="Beach sunrise in Palma">
+                </div>
+
+                <div class="carousel-item">
+                  <img src="assets/images/palma10.jpg" class="d-block w-100 rounded" alt="Port de Sóller">
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#palmaPhotoCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#palmaPhotoCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Recommendations Accordion -->
+        <div class="mt-5">
+          <h2 class="fw-bold mb-4 text-center">My Palma Recommendations</h2>
+
+          <div class="accordion accordion-flush" id="palmaAccordion">
+
+            <!-- Touristy Stuff -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTouristyPalma">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTouristyPalma" aria-expanded="false" aria-controls="collapseTouristyPalma">
+                  Touristy Stuff
+                </button>
+              </h2>
+              <div id="collapseTouristyPalma" class="accordion-collapse collapse" aria-labelledby="headingTouristyPalma" data-bs-parent="#palmaAccordion">
+                <div class="accordion-body">
+                  <ul>
+                    <li>Palma Cathedral</li>
+                    <li>Explore the Old Town!</li>
+                    <li>Take the Tren de Sóller for a beautiful ride through the mountains</li>
+                    <li>Llotja de Palma</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Restaurants -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingRestaurantsPalma">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRestaurantsPalma" aria-expanded="false" aria-controls="collapseRestaurantsPalma">
+                  Restaurants
+                </button>
+              </h2>
+              <div id="collapseRestaurantsPalma" class="accordion-collapse collapse" aria-labelledby="headingRestaurantsPalma" data-bs-parent="#palmaAccordion">
+                <div class="accordion-body">
+                  <ul>
+                    <li>Restaurante El Túnel</li>
+                    <li>El Xiringo (best paella and sangria ever!)</li>
+                    <li>Café Verde</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Airbnb -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingAirbnbPalma">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAirbnbPalma" aria-expanded="false" aria-controls="collapseAirbnbPalma">
+                  Airbnb
+                </button>
+              </h2>
+              <div id="collapseAirbnbPalma" class="accordion-collapse collapse" aria-labelledby="headingAirbnbPalma" data-bs-parent="#palmaAccordion">
+                <div class="accordion-body text-center">
+                  <div class="airbnb-embed-frame" data-id="1015808773732975383" data-view="home" data-hide-price="true" style="width: 450px; height: 300px; margin: auto;">
+                    <a href="https://www.airbnb.com/rooms/1015808773732975383?guests=1&adults=3&s=67&unique_share_id=a6b38d71-40d3-4ed6-9f54-46d2144d0d93" target="_blank">
+                      View on Airbnb
+                    </a>
+                    <script async src="https://www.airbnb.com/embeddable/airbnb_jssdk"></script>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Navigation Buttons -->
+          <div class="d-flex justify-content-center gap-3 mt-5">
+            <a href="paris.html" class="btn btn-outline-primary btn-lg">← Previous: Paris</a>
+            <a href="plymouth.html" class="btn btn-primary btn-lg">Next Stop: Plymouth →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white text-center">
+      <div class="container px-4">
+        <p class="m-0">© 2025 Sights of Sophie — A Study Abroad Travel Guide by Sophie Patch</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

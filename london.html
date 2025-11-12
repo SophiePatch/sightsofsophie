@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Sights of Sophie – Explore my favorite spots and experiences in London during my study abroad semester."
+    />
+    <title>Sights of Sophie | London</title>
+    <link rel="icon" type="image/x-icon" href="assets/sightsofsophie.png" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="styles.css" rel="stylesheet" />
+    <link href="custom.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <div class="container px-4">
+    <a class="navbar-brand" href="index.html">
+      <img src="assets/sightsofsophie.png" alt="Sights of Sophie logo" class="brand-logo" />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+        <!-- Dropdown Menu for Destinations -->
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle active"
+            href="destinations.html"
+            id="destinationsDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Destinations
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="destinationsDropdown">
+            <li><a class="dropdown-item" href="destinations.html">Overview</a></li>
+            <li><a class="dropdown-item active" href="london.html">London, England</a></li>
+            <li><a class="dropdown-item" href="paris.html">Paris, France</a></li>
+            <li><a class="dropdown-item" href="palma.html">Palma de Mallorca, Spain</a></li>
+            <li><a class="dropdown-item" href="plymouth.html">Plymouth, England</a></li>
+            <li><a class="dropdown-item" href="edinburgh.html">Edinburgh, Scotland</a></li>
+            <li><a class="dropdown-item" href="wales.html">Wales, UK</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="tips.html">Travel Tips</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <!-- Header -->
+    <header class="hero" style="background-image: url('assets/images/london7.jpg');">
+  <div class="hero-content container">
+    <h1 class="display-5 fw-bold">London, England</h1>
+    <p class="lead">Where my study abroad adventure began — full of history, art, and discovery.</p>
+  </div>
+</header>
+
+
+    <!-- Main Content -->
+    <section>
+      <div class="container px-4">
+        <h2 class="fw-bold mb-4">A Semester in the City</h2>
+        <p class="lead">
+          London became my home base during my semester abroad — a city that constantly balanced the traditional with the modern.
+        </p>
+        <p>
+          Weekdays were filled with design classes, late-night bus rides, and weekend markets. I loved mornings at Borough Market,
+          afternoons sketching at the Tate Modern, and evenings along the South Bank watching the skyline glow.
+        </p>
+
+        <!-- London Photo Carousel -->
+<section id="london-carousel" class="my-5">
+  <div class="container px-4">
+    <h2 class="fw-bold mb-4 text-center">London Highlights</h2>
+
+    <div id="londonPhotoCarousel" class="carousel slide shadow-sm rounded" data-bs-ride="carousel" data-bs-interval="4000">
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#londonPhotoCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#londonPhotoCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#londonPhotoCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <!-- Carousel inner -->
+      <div class="carousel-inner rounded">
+        <div class="carousel-item active">
+          <img src="assets/images/london15.jpg" class="d-block w-100 rounded" alt="Flatmate picture in St. James's Park">
+        </div>
+
+        <div class="carousel-item">
+          <img src="assets/images/london11.jpg" class="d-block w-100 rounded" alt="London skyline at dusk">
+        </div>
+
+        <div class="carousel-item">
+          <img src="assets/images/london5.jpg" class="d-block w-100 rounded" alt="Notting Hill colorful houses">
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#londonPhotoCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#londonPhotoCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+</section>
+        </div>
+
+        <!-- Accordion Section -->
+        <div class="mt-5">
+          <h2 class="fw-bold mb-4 text-center">My London Recommendations</h2>
+
+          <div class="accordion accordion-flush" id="londonAccordion">
+
+
+            <!-- Touristy Stuff -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTouristy">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTouristy"
+                  aria-expanded="false"
+                  aria-controls="collapseTouristy"
+                >
+                  Touristy Stuff
+                </button>
+              </h2>
+              <div
+                id="collapseTouristy"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTouristy"
+                data-bs-parent="#londonAccordion"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>Tower of London</li>
+                    <li>Borough Market</li>
+                    <li>Notting Hill (Portobello Market)</li>
+                    <li>Camden Market</li>
+                    <li>Big Ben & Parliament (Tour inside if you can!)</li>
+                    <li>The Shard</li>
+                    <li>Buckingham Palace</li>
+                    <li>Tower Bridge</li>
+                    <li>London Eye</li>
+                    <li>Westminster</li>
+                    <li>Primrose Hill (Amazing sunset views!)</li>
+                    <li>Battersea Power Station</li>
+                    <li>St. James’s Park</li>
+                    <li>Sky Garden</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Museums -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingMuseums">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseMuseums"
+                  aria-expanded="false"
+                  aria-controls="collapseMuseums"
+                >
+                  Museums
+                </button>
+              </h2>
+              <div
+                id="collapseMuseums"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingMuseums"
+                data-bs-parent="#londonAccordion"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>British Museum</li>
+                    <li>Imperial War Museum</li>
+                    <li>Design Museum</li>
+                    <li>National Gallery</li>
+                    <li>National Maritime Museum</li>
+                    <li>National Portrait Gallery</li>
+                    <li>Cartoon Museum</li>
+                    <li>Tate Modern</li>
+                    <li>The Royal Academy of Arts</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Restaurants -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingRestaurants">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseRestaurants"
+                  aria-expanded="false"
+                  aria-controls="collapseRestaurants"
+                >
+                  Restaurants
+                </button>
+              </h2>
+              <div
+                id="collapseRestaurants"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingRestaurants"
+                data-bs-parent="#londonAccordion"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>Tavolino</li>
+                    <li>Dishoom</li>
+                    <li>Pho & Bun</li>
+                    <li>Wong Kei</li>
+                    <li>Franco Manca (Chain – easy to find!)</li>
+                    <li>The Wolseley (Upscale but incredible atmosphere)</li>
+                    <li>Wetherspoons (Chain pub food – always solid)</li>
+                    <li>Honestly, any local pub will have great food!</li>
+                    <li>
+                      Visit a university farmers market — UCL’s is on Thursdays and has amazing local food!
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- West End Shows -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingShows">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseShows"
+                  aria-expanded="false"
+                  aria-controls="collapseShows"
+                >
+                  West End Shows
+                </button>
+              </h2>
+              <div
+                id="collapseShows"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingShows"
+                data-bs-parent="#londonAccordion"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>Les Misérables</li>
+                    <li>The Lion King</li>
+                    <li>Mamma Mia</li>
+                    <li>Phantom of the Opera</li>
+                    <li>Matilda</li>
+                    <li>Wicked</li>
+                    <li>Book of Mormon</li>
+                    <li>Hamilton</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Places to Go Out -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOut">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOut"
+                  aria-expanded="false"
+                  aria-controls="collapseOut"
+                >
+                  Places to Go Out
+                </button>
+              </h2>
+              <div
+                id="collapseOut"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingOut"
+                data-bs-parent="#londonAccordion"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>Albert’s Schloss</li>
+                    <li>Roxy’s (Half-off pitcher nights on Thursdays!)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Navigation Buttons -->
+          <div class="d-flex justify-content-center gap-3 mt-5">
+            <a href="destinations.html" class="btn btn-outline-primary btn-lg">← Back to Overview</a>
+            <a href="paris.html" class="btn btn-primary btn-lg">Next Stop: Paris →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white text-center">
+      <div class="container px-4">
+        <p class="m-0">© 2025 Sights of Sophie — A Study Abroad Travel Guide by Sophie Patch</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

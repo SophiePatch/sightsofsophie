@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Sights of Sophie – Favorite sights, food, and moments from my Paris weekend while studying abroad in London."
+    />
+    <title>Sights of Sophie | Paris</title>
+    <link rel="icon" type="image/x-icon" href="assets/sightsofsophie.png" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="styles.css" rel="stylesheet" />
+    <link href="custom.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container px-4">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/sightsofsophie.png" alt="Sights of Sophie logo" class="brand-logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <!-- Dropdown Menu for Destinations -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="destinations.html"
+                id="destinationsDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Destinations
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="destinationsDropdown">
+                <li><a class="dropdown-item" href="destinations.html">Overview</a></li>
+                <li><a class="dropdown-item" href="london.html">London, England</a></li>
+                <li><a class="dropdown-item active" href="paris.html">Paris, France</a></li>
+                <li><a class="dropdown-item" href="palma.html">Palma de Mallorca, Spain</a></li>
+                <li><a class="dropdown-item" href="plymouth.html">Plymouth, England</a></li>
+                <li><a class="dropdown-item" href="edinburgh.html">Edinburgh, Scotland</a></li>
+                <li><a class="dropdown-item" href="wales.html">Wales, UK</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item"><a class="nav-link" href="tips.html">Travel Tips</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="hero" style="background-image: url('assets/images/paris2.jpg');">
+  <div class="hero-content container">
+    <h1 class="display-5 fw-bold">Paris, France</h1>
+    <p class="lead">The City of Light — a weekend of croissants, art, and golden-hour walks by the Seine.</p>
+  </div>
+</header>
+
+
+    <!-- Main Content -->
+    <section class="py-5">
+      <div class="container px-4">
+        <h2 class="fw-bold mb-4">Through the Streets of Paris</h2>
+        <p class="lead">
+          Just a two-hour train ride from London, Paris felt like stepping into a painting. From sunrise over the Seine to twinkling nights at the Eiffel Tower, every moment had its own kind of magic.
+        </p>
+        <p>
+          My favorite moments were simple — a croissant from a corner bakery, people-watching in the Jardin du Luxembourg, and wandering Montmartre’s cobblestone streets. Paris taught me to slow down, look up, and soak it all in.
+        </p>
+
+        <!-- Paris Carousel -->
+        <section id="paris-carousel" class="my-5">
+          <div class="container px-4">
+            <h2 class="fw-bold mb-4 text-center">Paris Highlights</h2>
+
+            <div id="parisPhotoCarousel" class="carousel slide shadow-sm rounded" data-bs-ride="carousel" data-bs-interval="4000">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#parisPhotoCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#parisPhotoCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#parisPhotoCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+
+              <div class="carousel-inner rounded">
+  <div class="carousel-item active">
+    <img
+      src="assets/images/paris6.jpg"
+      class="d-block w-100 rounded"
+      alt="Eiffel Tower glowing at night"
+      style="object-fit: cover; object-position: center -700px; height: 600px;"
+    >
+  </div>
+
+  <div class="carousel-item">
+    <img
+      src="assets/images/paris3.jpg"
+      class="d-block w-100 rounded"
+      alt="Montmartre and Sacré-Cœur"
+      style="object-fit: cover; object-position: center -600px; height: 600px;"
+    >
+  </div>
+
+  <div class="carousel-item">
+    <img
+      src="assets/images/paris5.jpg"
+      class="d-block w-100 rounded"
+      alt="Luxembourg Gardens in spring"
+      style="object-fit: cover; object-position: center -700px; height: 600px;"
+    >
+  </div>
+</div>
+
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#parisPhotoCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#parisPhotoCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Accordion Recommendations -->
+        <div class="mt-5">
+          <h2 class="fw-bold mb-4 text-center">My Paris Recommendations</h2>
+
+          <div class="accordion accordion-flush" id="parisAccordion">
+
+            <!-- Touristy Stuff -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTouristyParis">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTouristyParis" aria-expanded="false" aria-controls="collapseTouristyParis">
+                  Touristy Stuff
+                </button>
+              </h2>
+              <div id="collapseTouristyParis" class="accordion-collapse collapse" aria-labelledby="headingTouristyParis" data-bs-parent="#parisAccordion">
+                <div class="accordion-body">
+                  <ul>
+                    <li>Eiffel Tower (obvi)</li>
+                    <li>Notre-Dame</li>
+                    <li>Arc de Triomphe</li>
+                    <li>Sacré-Cœur</li>
+                    <li>Jardin du Luxembourg</li>
+                    <li>Montmartre</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Museums -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingMuseumsParis">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMuseumsParis" aria-expanded="false" aria-controls="collapseMuseumsParis">
+                  Museums
+                </button>
+              </h2>
+              <div id="collapseMuseumsParis" class="accordion-collapse collapse" aria-labelledby="headingMuseumsParis" data-bs-parent="#parisAccordion">
+                <div class="accordion-body">
+                  <ul>
+                    <li>Louvre</li>
+                    <li>Musée d’Orsay</li>
+                    <li>Palace of Versailles</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Restaurants -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingRestaurantsParis">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRestaurantsParis" aria-expanded="false" aria-controls="collapseRestaurantsParis">
+                  Restaurants
+                </button>
+              </h2>
+              <div id="collapseRestaurantsParis" class="accordion-collapse collapse" aria-labelledby="headingRestaurantsParis" data-bs-parent="#parisAccordion">
+                <div class="accordion-body">
+                  <ul>
+                    <li>Copains (gluten-free bakery!)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Shows -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingShowsParis">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseShowsParis" aria-expanded="false" aria-controls="collapseShowsParis">
+                  Shows
+                </button>
+              </h2>
+              <div id="collapseShowsParis" class="accordion-collapse collapse" aria-labelledby="headingShowsParis" data-bs-parent="#parisAccordion">
+                <div class="accordion-body">
+                  <ul>
+                    <li>Cabaret au Lapin Agile</li>
+                    <li>Moulin Rouge</li>
+                  </ul>
+                </div>
+                <div class="container px-4 text-center">
+    <video controls autoplay loop class="rounded shadow-sm" style="max-width: 30%; height: auto;">
+      <source src="assets/videos/cabaret.MOV" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <p class="mt-3 text-muted">A clip from the Cabaret au Lapin Agile show in Montmarte.</p>
+  </div>
+              </div>
+            </div>
+
+            <!-- Places to Go Out -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOutParis">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOutParis" aria-expanded="false" aria-controls="collapseOutParis">
+                  Places to Go Out
+                </button>
+              </h2>
+              <div id="collapseOutParis" class="accordion-collapse collapse" aria-labelledby="headingOutParis" data-bs-parent="#parisAccordion">
+                <div class="accordion-body">
+                  <ul>
+                    <li>Caveau de la Huchette (where the ending of <em>La La Land</em> was filmed!)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Hostel -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingHostelParis">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHostelParis" aria-expanded="false" aria-controls="collapseHostelParis">
+                  Hostel
+                </button>
+              </h2>
+              <div id="collapseHostelParis" class="accordion-collapse collapse" aria-labelledby="headingHostelParis" data-bs-parent="#parisAccordion">
+                <div class="accordion-body">
+                  <ul>
+                    <li>St. Christopher’s Inn Paris (Gare du Nord)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Navigation Buttons -->
+          <div class="d-flex justify-content-center gap-3 mt-5">
+            <a href="london.html" class="btn btn-outline-primary btn-lg">← Previous: London</a>
+            <a href="palma.html" class="btn btn-primary btn-lg">Next Stop: Palma →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white text-center">
+      <div class="container px-4">
+        <p class="m-0">© 2025 Sights of Sophie — A Study Abroad Travel Guide by Sophie Patch</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
