@@ -26,42 +26,6 @@
 
     <link href="styles.css" rel="stylesheet" />
     <link href="custom.css" rel="stylesheet" />
-
-    <style>
-      /* ---- HERO OVERLAY ---- */
-      header.hero {
-        position: relative;
-        background: url('plane.jpg') center 22%/cover no-repeat;
-        color: #fff;
-        text-align: center;
-      }
-
-      header.hero::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.25));
-      }
-
-      header.hero .hero-content {
-        position: relative;
-        z-index: 1;
-        padding: 6rem 1rem;
-        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
-      }
-
-      header.hero h1 {
-        font-weight: 600;
-      }
-
-      header.hero p {
-        font-size: 1.2rem;
-        opacity: 0.95;
-      }
-    </style>
   </head>
 
   <body>
@@ -117,20 +81,25 @@
       </div>
     </nav>
 
-    <!-- Hero -->
-    <header class="hero">
-      <div class="hero-content container">
+<!-- Header -->
+    <header class="text-white text-center py-5" style="background: url('plane.jpg') center 22% /cover;">
+      <div class="container px-4 py-5">
         <h1 class="display-5 fw-bold">Destinations</h1>
-        <p class="lead">The cities, coastlines, and castles that shaped my study abroad story.</p>
+        <p class="lead">
+          The cities, coastlines, and castles that shaped my study abroad story.
+        </p>
       </div>
     </header>
+
+
+    
 
     <!-- London -->
     <section id="london" class="py-5 bg-light">
       <div class="container px-4">
         <div class="row gx-5 align-items-center">
           <div class="col-md-6">
-            <img src="london11.jpg" alt="London skyline and River Thames" class="img-fluid rounded shadow-sm mb-3" />
+            <img src="london11.jpg" alt="London Eye and Big Ben at dusk" class="img-fluid rounded shadow-sm mb-3" />
           </div>
           <div class="col-md-6">
             <h2 class="fw-bold mb-3">London, England</h2>
@@ -151,7 +120,7 @@
       <div class="container px-4">
         <div class="row gx-5 align-items-center flex-md-row-reverse">
           <div class="col-md-6">
-            <img src="paris2.jpg" alt="Eiffel Tower and Seine River in Paris" class="img-fluid rounded shadow-sm mb-3" />
+            <img src="paris2.jpg" alt="Arc de Triomphe in Paris" class="img-fluid rounded shadow-sm mb-3" />
           </div>
           <div class="col-md-6">
             <h2 class="fw-bold mb-3">Paris, France</h2>
@@ -172,7 +141,7 @@
       <div class="container px-4">
         <div class="row gx-5 align-items-center">
           <div class="col-md-6">
-            <img src="palma3.jpg" alt="Palma de Mallorca coastline and cathedral" class="img-fluid rounded shadow-sm mb-3" />
+            <img src="palma3.jpg" alt="Palma cathedral" class="img-fluid rounded shadow-sm mb-3" />
           </div>
           <div class="col-md-6">
             <h2 class="fw-bold mb-3">Palma de Mallorca, Spain</h2>
@@ -193,7 +162,7 @@
       <div class="container px-4">
         <div class="row gx-5 align-items-center flex-md-row-reverse">
           <div class="col-md-6">
-            <img src="plymouth2.jpg" alt="Plymouth harbor and Hoe lighthouse" class="img-fluid rounded shadow-sm mb-3" />
+            <img src="plymouth2.jpg" alt="Sailboats in Plymouth" class="img-fluid rounded shadow-sm mb-3" />
           </div>
           <div class="col-md-6">
             <h2 class="fw-bold mb-3">Plymouth, England</h2>
@@ -214,7 +183,7 @@
       <div class="container px-4">
         <div class="row gx-5 align-items-center">
           <div class="col-md-6">
-            <img src="scotland4.jpg" alt="Edinburgh skyline and castle view" class="img-fluid rounded shadow-sm mb-3" />
+            <img src="scotland4.jpg" alt="Victoria Street in Edinburgh" class="img-fluid rounded shadow-sm mb-3" />
           </div>
           <div class="col-md-6">
             <h2 class="fw-bold mb-3">Edinburgh, Scotland</h2>
@@ -235,7 +204,7 @@
       <div class="container px-4">
         <div class="row gx-5 align-items-center flex-md-row-reverse">
           <div class="col-md-6">
-            <img src="wales5.jpg" alt="Conwy Castle and Welsh coast" class="img-fluid rounded shadow-sm mb-3" />
+            <img src="wales5.jpg" alt="Outlook in Conwy Castle" class="img-fluid rounded shadow-sm mb-3" />
           </div>
           <div class="col-md-6">
             <h2 class="fw-bold mb-3">Wales, UK</h2>
